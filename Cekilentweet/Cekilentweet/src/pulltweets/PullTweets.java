@@ -42,10 +42,10 @@ public class PullTweets {
         // TODO code application logic here
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true);
-        cb.setOAuthConsumerKey("Rh7eY093xq5tnnd756XrkXnyv");
-        cb.setOAuthConsumerSecret("B6O7JQC8RjdT5MAgwwDdc22vWCz1lirje0F274Z0oVYeqOf6p9");
-        cb.setOAuthAccessToken("805689435350245376-blt8yGtMEA8li2oMcKEnVV4Zx2FDtMw");
-        cb.setOAuthAccessTokenSecret("3uDDYnM8o5RA9gHVv4V975MioW0welyNJodGXsMbLrWEh");
+        cb.setOAuthConsumerKey("0XtrLViIhUpbbFiBKixfMwcqG");
+        cb.setOAuthConsumerSecret("53K8RoLuSBO8D0FYIKXIsFnLs3gDFyxysJZ7cCWjR1wAJC13N6");
+        cb.setOAuthAccessToken("1478087082-WOu2F6LHnp4Xfq4V6oLSuXKpoVSVYphG2h9NnfK");
+        cb.setOAuthAccessTokenSecret("7kE6VEAMZtsS6s18VkwGdqpvxh4MHTfKokShGAf8Phmc0");
 
         Twitter twitter = new TwitterFactory(cb.build()).getInstance();
 
